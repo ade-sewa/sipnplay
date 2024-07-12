@@ -69,8 +69,7 @@ text-align: center
 
 }
 .card {
-  margin: auto;
-  margin-right: 150px;
+  
   width: 200px;
   height: 300px;
   border: 2px solid black;
@@ -149,7 +148,9 @@ text-align: center
 
 .container {
   display: flex;
- 
+  gap:0px;
+  justify-content: center;
+ gap:30px
 }
 
 .other ul {
