@@ -20,12 +20,12 @@ function init() {
   const loader = new THREE.TextureLoader();
 
   const materials = [
-    new THREE.MeshBasicMaterial({ map: loader.load("./one.jpg") }),
-    new THREE.MeshBasicMaterial({ map: loader.load("./two.jpg") }),
-    new THREE.MeshBasicMaterial({ map: loader.load("./three.jpg") }),
-    new THREE.MeshBasicMaterial({ map: loader.load("./four.jpg") }),
-    new THREE.MeshBasicMaterial({ map: loader.load("./five.jpg") }),
-    new THREE.MeshBasicMaterial({ map: loader.load("./six.jpg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./one.jpeg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./two.jpeg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./three.jpeg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./four.jpeg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./five.jpeg") }),
+    new THREE.MeshBasicMaterial({ map: loader.load("./six.jpeg") }),
   ];
 
   dice = new THREE.Mesh(geometry, materials);

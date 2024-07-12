@@ -1,44 +1,4 @@
 /*equivalent of the html; targets the highest level element in the document (global frame), call with var()*/
-h1{text-align: center;
-    font-family: "Play", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: x-large;
-}  
-h2{ text-align: center;
-    font-family: "Play", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-
-}
-h3{font-family: "Play", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-h4{font-family: "Play", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: small;
-}
-p{font-family: "Play", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-a {font-family: "Play", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-     color: black; }
-.header{
-        background-color: white;
-        width: 100% 
-    }
-.footer{
-    
-    font-size: x-small;
-    bottom: 0;
-    text-align: center;}
-
 :root {
     --background-colour: #98A869;
     --calendar-colour: #000000;
@@ -48,20 +8,43 @@ a {font-family: "Play", sans-serif;
     --active: #d4d4d4;
   }
   
-  * {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier', monospace;
+    text-align: center;
+    font-family: "Play", sans-serif;
   }
-  
-  body {
+  h1{text-align: center;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}  
+
+
+p{font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+.a {font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: black; }
+
+  body {text-align: center;
+    font-family: "Play", sans-serif;
+    
+    font-style: normal;
+    
     min-height: 100vh;
-    display: table-cell;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
-    background-color: lightgray;
+    display: grid;
+    background-color: lightgrey;
+    
   }
   
   .calendar {
@@ -74,6 +57,10 @@ a {font-family: "Play", sans-serif;
     color: var(--calendar-colour);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content inside */
+    margin: auto; 
   }
   
   .inner_container {
@@ -245,41 +232,16 @@ a {font-family: "Play", sans-serif;
   .empty_black {
     background-color: #ffffff;
   }
-
-  body{
-    background-color: lightgrey;
-    	display: table-cell;
-	justify-content: center;
-	align-items: center;
-    
-}
-
-
-table{margin-left: auto;
-    margin-right: auto;
-   padding: 100x;
-    
-}
-.play-regular {
-    font-family: "Play", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  
+  .header{
+    background-color: white;
+    width: 100%; 
+    margin: 10px;
   }
   
-  .play-bold {
-    font-family: "Play", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  .footer{
+  font-size: x-small;
+  bottom: 0;
+  text-align: center;
   }
-  .card{
-	margin-top: 3%;
-    padding: 20px;
-	position: relative;
-	width:90%;
-	border-radius: 40px;
-	border-color: #362036;
-	border-width: 20px;
-    background-color: #9BB87A;
-    margin-left: auto;
-    margin-right: auto;
-}
+  

@@ -1,10 +1,80 @@
-body{
-    background-color: lightgrey;
-}
+body {
+    font-family: 'Play', sans-serif;
+    background-color: #9bb87a;
+  }
+  
+  .img1 {
+    padding: 20px;
+    
+  }
+  
+  .img2{
+    padding: 20px;
+  }
+
+  .header img {
+    margin-right: 0;
+  }
+  .main{
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .card {
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card img {
+    margin-right: 20px;
+  }
+  
+  .greens {
+    border-left: 10px solid green;
+  }
+  
+  .greys {
+    border-left: 10px solid seagreen;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .section {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
 .header{
     background-color: white;
     width: 100%
-    
 }
 
 h1{text-align: center;
@@ -44,26 +114,7 @@ a {font-family: "Play", sans-serif;
     bottom: 0;
     text-align: center;
 }
-.games{width: 100%;
-        
-}
-.gametype{
-    background-color: #9BB87A;
-}
-.card{
-    width: 80%;
-    padding: 67px;
-    position: static;
-}
-.gamename{
 
-}
-.greens{
-    background-color: #9BB87A;
-}
-.greys{
-    background-color: oldlace;
-}
 table{margin-left: auto;
     margin-right: auto;
    padding: 100x;
@@ -81,9 +132,4 @@ table{margin-left: auto;
     font-style: normal;
   }
 
-  #app {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;}
   
