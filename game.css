@@ -1,0 +1,139 @@
+body {
+    background-color: lightgrey;
+  }
+
+  .header {
+    background-color: white;
+    width: 100%;
+  }
+
+  h1{text-align: center;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}  
+h2{ text-align: center;
+    font-family: "Play", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+h3{font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{font-family: "Play", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+p{font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+a {font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: black; }
+  .footer {
+    font-size: x-small;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .games {
+    width: 100%;
+  }
+
+  .gametype {
+    background-color: #9bb87a;
+  }
+
+  .gamenam{
+    background-color: #9bb87a;
+    padding: 10px;
+  }
+
+  .card {
+    margin: auto;
+    margin-right: 150px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+
+  .card-front {
+    background-color: white;
+  }
+
+  .card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+  }
+
+  .card.flip .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .corner {
+    position: absolute;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .top-left1, .top-left2 {
+    top: 10px;
+    left: 10px;
+  }
+
+  .bottom-right1, .bottom-right2 {
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+  }
+
+  .symbol1, .symbol2, .symbol {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .symbol1 {
+    color: black;
+  }
+
+  .symbol2 {
+    color: red;
+  }
+
+  .top-left2, .bottom-right2 {
+    color: red;
+  }
+
+  .container {
+    display: flex;
+  }

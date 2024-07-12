@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <link href="game.css" rel="stylesheet" type="text/css">
+    <title>sipnplay</title>
 </head>
 <body>
     <div>
@@ -19,51 +22,96 @@
                 <td><h1><a href="about.html">About</a></h1></td>
             </tr>
         </table>
-    
-    
+
     </div>
-   <div class = "featured">
+    <div class = "featured">
         <h2></br>Staff Picks</br></br></h2>
-            <table class = "games">
-            <tr height= 250px>
-            <td class = "gametype"><h3>For Families</h3></td>
 
-            <td class = "gamename">Apples to Apples
-            5 Second Rule</br></br>
-            Codenames</br></br>
-            King of Tokyo</br></br>
-            Sequence</br></br>
-            Monopoly</br></br></td></tr>
-            
-            <tr height= 250px>
-         <td class = "gamename">Patchwork</br></br>
-            Onitama</br></br>
-            7 Wonders: Duel</br></br>
-            Stratego</br></br>
-            Villainous</br></br>
-            Memoir 44</br></br></td>
-         <td class = "gametype"><h3>For Couples/Two Players</h3></td></tr>
-         <tr height= 250px>
-        <td class = "gametype"><h3>For Boardgame Hobbyists</h3></td>
-        <td class = "gamename"></br>
-            Arkham Horror LCG</br></br>
-            Spirit Island</br></br>
-            Stone Age</br></br>
-            Survive: Escape from Atlantis!</br></br>
-            Roll for the Galaxy</br></br>
-            Agricola</br></br>
+    <h2><em>Click a card to reveal</em></h2>
 
-        </td>
+    <div class="container">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="corner top-left">
+                        <span>A</span>
+                        <span>&spades;</span>
+                    </div>
+                    <div class="symbol">&spades;</div>
+                    <div class="corner bottom-right1">
+                        <span>A</span>
+                        <span>&spades;</span>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <td class = "gametype"><h3>For Families</h3></td>
 
-
-         </tr>
-            </table>
+                    <td class = "gamename">
+                    Apples to Apples</br></br>
+                    5 Second Rule</br></br>
+                    Codenames</br></br>
+                    King of Tokyo</br></br>
+                    Sequence</br></br>
+                    Monopoly</br></br></td></tr>
+                </div>
             </div>
-    
-    <div class = "allgames"><h2>All Games</h2></div>
-    <p class="footer">sipnplaynyc@gmail.com </br>
-        718-971-1684</br>
-        ©2020 by Sip & Play</p>
-    
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="corner top-left2">
+                        <span>A</span>
+                        <span>&hearts;</span>
+                    </div>
+                    <div class="symbol2">&hearts;</div>
+                        <div class="corner bottom-right2">
+                        <span>A</span>
+                        <span>&hearts;</span>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <td class = "gametype"><h3>For Couples/Two Players</h3></td>
+
+                    <td class = "gamename">
+                    Patchwork</br></br>
+                    Onitama</br></br>
+                    7 Wonders: Duel</br></br>
+                    Stratego</br></br>
+                    Villainous</br></br>
+                    Memoir 44</br></br></td></tr>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="corner top-left1">
+                        <span>A</span>
+                        <span>&clubs;</span>
+                    </div>
+                    <div class="symbol1">&clubs;</div>
+                        <div class="corner bottom-right1">
+                        <span>A</span>
+                        <span>&clubs;</span>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <td class = "gametype"><h3>For Boardgame Hobbyists</h3></td>
+
+                    <td class = "gamename">
+                    Arkham Horror LCG</br></br>
+                    Spirit Island</br></br>
+                    Stone Age</br></br>
+                    Survive: Escape From Atlantis!</br></br>
+                    Roll for the Galaxy</br></br>
+                    Agricola</br></br></td></tr>
+                </div>
+            </div>
+        </div>
+
+</div>
+<script src="boardgames.js"></script>
 </body>
 </html>

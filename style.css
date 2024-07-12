@@ -6,20 +6,36 @@ body{
     width: 100%
 }
 
-h1{
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-
-font-size: x-large;
+h1{text-align: center;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
 }  
 h2{ text-align: center;
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-family: "Play", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 
 }
-h3{
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-    
+h3{font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h4{font-family: "Play", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+p{font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
+a {font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: black; }
 .footer{
     
     font-size: x-small;
@@ -29,14 +45,38 @@ h3{
 }
 .games{width: 100%;
         
-       
-
-
 }
 .gametype{
     background-color: #9BB87A;
 }
-
+.card{
+    width: 80%;
+    padding: 20px;
+    position: static;
+}
 .gamename{
 
 }
+.greens{
+    background-color: #9BB87A;
+}
+.greys{
+    background-color: oldlace;
+}
+table{margin-left: auto;
+    margin-right: auto;
+   padding: 100x;
+    
+}
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
